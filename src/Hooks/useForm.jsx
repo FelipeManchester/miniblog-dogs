@@ -7,9 +7,12 @@ const types = {
     message: 'Preencha um e-mail válido.',
   },
   password: {
-    regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
-    message:
-      'Crie uma senha com pelo menos 8 caracteres. Precisa conter pelo menos 1 dígito, 1 caractere minúsculo e 1 maiúsculo.',
+    regex: /^\d+$/,
+    message: 'Digite apenas números.',
+  },
+  number: {
+    regex: /^\d+$/,
+    message: 'Utilize apenas números.',
   },
 };
 

@@ -38,6 +38,10 @@ input {
   margin: 0 auto;
 }
 
+.mainContainer {
+  margin-top: 4rem;
+}
+
 .error {
   color: #f31;
   font-size: 0.875rem;
