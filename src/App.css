@@ -20,8 +20,13 @@ img {
   max-width: 100%;
 }
 
+ul,
+li {
+  list-style: none;
+}
 a {
   text-decoration: none;
+  color: #333;
 }
 
 button,
@@ -39,7 +44,7 @@ input {
 }
 
 .mainContainer {
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .error {
