@@ -37,6 +37,16 @@ input {
   color: #333;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+
+.AppBody {
+  flex: 1;
+}
+
 .container {
   max-width: 56rem;
   padding: 0 1rem;
@@ -86,4 +96,8 @@ input {
     opacity: 1;
     transform: initial;
   }
+}
+
+.VictoryContainer {
+  height: initial !important;
 }
