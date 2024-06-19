@@ -101,3 +101,15 @@ input {
 .VictoryContainer {
   height: initial !important;
 }
+
+.animatedScroll {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+}
+.animatedScroll > div {
+  width: 100%;
+  height: 100%;
+}

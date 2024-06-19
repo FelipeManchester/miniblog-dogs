@@ -2,6 +2,7 @@ import React from 'react';
 import FeedModal from './FeedModal';
 import FeedPhotos from './FeedPhotos';
 import propTypes from 'prop-types';
+import AnimatedScroll from '../../Helper/AnimatedScroll';
 
 const Feed = ({ user }) => {
   const [modalPhoto, setModalPhoto] = React.useState(null);
@@ -57,6 +58,7 @@ const Feed = ({ user }) => {
           Não existem mais postagens.
         </p>
       )}
+      <AnimatedScroll />
     </div>
   );
 };
